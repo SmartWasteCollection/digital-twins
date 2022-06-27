@@ -1,0 +1,32 @@
+{
+  "@id": "dtmi:swc:CollectionPoint;1",
+  "@type": "Interface",
+  "displayName": "Collection Point",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Position",
+      "schema": {
+        "@type": "Object",
+        "fields": [
+          {
+            "name": "Latitude",
+            "schema": "double"
+          },
+          {
+            "name": "Longitude",
+            "schema": "double"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Relationship",
+      "@id": "dtmi:swc:CollectionPointContains;1",
+      "name": "MissionHasStep",
+      "displayName": "Collection Point Contains Dumpster",
+      "target": "dtmi:swc:Dumpster;1"
+    }
+  ]
+}
