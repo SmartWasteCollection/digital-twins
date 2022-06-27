@@ -1,0 +1,51 @@
+{
+  "@id": "dtmi:swc:Mission;1",
+  "@type": "Interface",
+  "displayName": "Mission",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Date",
+      "schema": "dateTime"
+    },
+    {
+      "@type": "Property",
+      "name": "TypeOfWaste",
+      "displayName": "Type of Waste",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "TypeOfMission",
+      "displayName": "Type of Mission",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Completed",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Relationship",
+      "@id": "dtmi:swc:HasStep;1",
+      "name": "MissionHasStep",
+      "displayName": "Mission Has Steps",
+      "target": "dtmi:swc:CollectionPoint;1",
+      "properties": [
+        {
+          "@type": "Property",
+          "name": "Completed",
+          "schema": "boolean"
+        }
+      ]
+    },
+    {
+      "@type": "Relationship",
+      "@id": "dtmi:swc:HasTruck;1",
+      "name": "MissionHasTruck",
+      "displayName": "Mission Has Truck",
+      "target": "dtmi:swc:Truck;1"
+    }
+  ]
+}
