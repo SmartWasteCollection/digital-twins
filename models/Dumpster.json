@@ -1,0 +1,65 @@
+{
+  "@id": "dtmi:swc:Dumpster;1",
+  "@type": "Interface",
+  "displayName": "Dumpster",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "DumpsterType",
+      "schema": {
+        "@type": "Object",
+        "fields": [
+          {
+            "name": "Size",
+            "schema": {
+              "@type": "Object",
+              "fields": [
+                {
+                  "name": "Dimension",
+                  "schema": "string"
+                },
+                {
+                  "name": "Capacity",
+                  "schema": "double"
+                }
+              ]
+            }
+          },
+          {
+            "name": "TypeOfOrdinaryWaste",
+            "schema": {
+              "@type": "Object",
+              "fields": [
+                {
+                  "name": "WasteName",
+                  "schema": "string"
+                },
+                {
+                  "name": "Color",
+                  "schema": "string"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Property",
+      "name": "Open",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "Working",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "OccupiedVolume",
+      "schema": "double"
+    }
+  ]
+}
+
