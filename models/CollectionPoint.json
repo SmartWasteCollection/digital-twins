@@ -24,7 +24,7 @@
     {
       "@type": "Relationship",
       "@id": "dtmi:swc:CollectionPointContains;1",
-      "name": "MissionHasStep",
+      "name": "CollectionPointContains",
       "displayName": "Collection Point Contains Dumpster",
       "target": "dtmi:swc:Dumpster;1"
     }
