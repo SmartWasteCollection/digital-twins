@@ -17,11 +17,11 @@
         "fields": [
           {
             "name": "longitude",
-            "schema": "long"
+            "schema": "double"
           },
           {
             "name": "latitude",
-            "schema": "long"
+            "schema": "double"
           }
         ]
       }
