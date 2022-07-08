@@ -27,7 +27,7 @@
     {
       "@type": "Relationship",
       "@id": "dtmi:swc:HasStep;1",
-      "name": "MissionHasStep",
+      "name": "missionHasStep",
       "displayName": "Mission Has Steps",
       "target": "dtmi:swc:CollectionPoint;1",
       "properties": [
@@ -41,7 +41,7 @@
     {
       "@type": "Relationship",
       "@id": "dtmi:swc:HasTruck;1",
-      "name": "MissionHasTruck",
+      "name": "missionHasTruck",
       "displayName": "Mission Has Truck",
       "target": "dtmi:swc:Truck;1"
     }
