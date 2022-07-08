@@ -6,24 +6,22 @@
   "contents": [
     {
       "@type": "Property",
-      "name": "Date",
-      "schema": "dateTime"
-    },
-    {
-      "@type": "Property",
-      "name": "TypeOfWaste",
-      "displayName": "Type of Waste",
+      "name": "date",
       "schema": "string"
     },
     {
       "@type": "Property",
-      "name": "TypeOfMission",
-      "displayName": "Type of Mission",
+      "name": "typeOfWaste",
       "schema": "string"
     },
     {
       "@type": "Property",
-      "name": "Completed",
+      "name": "typeOfMission",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "completed",
       "schema": "boolean"
     },
     {
@@ -35,7 +33,7 @@
       "properties": [
         {
           "@type": "Property",
-          "name": "Completed",
+          "name": "completed",
           "schema": "boolean"
         }
       ]
