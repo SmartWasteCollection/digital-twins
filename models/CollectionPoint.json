@@ -6,16 +6,16 @@
   "contents": [
     {
       "@type": "Property",
-      "name": "Position",
+      "name": "position",
       "schema": {
         "@type": "Object",
         "fields": [
           {
-            "name": "Latitude",
+            "name": "latitude",
             "schema": "double"
           },
           {
-            "name": "Longitude",
+            "name": "longitude",
             "schema": "double"
           }
         ]
@@ -24,7 +24,7 @@
     {
       "@type": "Relationship",
       "@id": "dtmi:swc:CollectionPointContains;1",
-      "name": "CollectionPointContains",
+      "name": "collectionPointContains",
       "displayName": "Collection Point Contains Dumpster",
       "target": "dtmi:swc:Dumpster;1"
     }

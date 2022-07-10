@@ -6,37 +6,37 @@
   "contents": [
     {
       "@type": "Property",
-      "name": "DumpsterType",
+      "name": "dumpsterType",
       "schema": {
         "@type": "Object",
         "fields": [
           {
-            "name": "Size",
+            "name": "size",
             "schema": {
               "@type": "Object",
               "fields": [
                 {
-                  "name": "Dimension",
+                  "name": "dimension",
                   "schema": "string"
                 },
                 {
-                  "name": "Capacity",
+                  "name": "capacity",
                   "schema": "double"
                 }
               ]
             }
           },
           {
-            "name": "TypeOfOrdinaryWaste",
+            "name": "typeOfOrdinaryWaste",
             "schema": {
               "@type": "Object",
               "fields": [
                 {
-                  "name": "WasteName",
+                  "name": "wasteName",
                   "schema": "string"
                 },
                 {
-                  "name": "Color",
+                  "name": "color",
                   "schema": "string"
                 }
               ]
@@ -47,17 +47,17 @@
     },
     {
       "@type": "Property",
-      "name": "Open",
+      "name": "open",
       "schema": "boolean"
     },
     {
       "@type": "Property",
-      "name": "Working",
+      "name": "working",
       "schema": "boolean"
     },
     {
       "@type": "Property",
-      "name": "OccupiedVolume",
+      "name": "occupiedVolume",
       "schema": "double"
     }
   ]
